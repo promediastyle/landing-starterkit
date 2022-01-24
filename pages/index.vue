@@ -8,10 +8,8 @@
       Home
 
       <div class="py-10">
-        <button class="py-2 px-6 rounded-full bg-indigo-600 text-white" @click="showModal = true">Modal 1</button>
-        <button class="py-2 px-6 rounded-full bg-indigo-600 text-white" @click="showModal2 = true">Modal 2</button>
+        <button class="py-2 px-6 rounded-full bg-indigo-600 text-white" @click="showModal = true">Modal Form</button>
         <ModalForm v-show="showModal" @close-modal="showModal = false" />
-        <ModalForm2 v-show="showModal2" @close-modal="showModal2 = false" />
       </div>
       
       <div class="h-[1000px]"></div>
@@ -26,7 +24,6 @@ export default {
   data() {
     return {
       showModal: false,
-      showModal2: false,
     }
   },
   watch: {
@@ -41,17 +38,6 @@ export default {
         }
       }
     },
-    showModal2: {
-      immediate: true,
-      handler(isOpen) {
-        if (process.client) {
-          if (isOpen)
-            document.body.style.setProperty("overflow", "hidden");
-          else
-            document.body.style.removeProperty("overflow");
-        }
-      }
-    }
   },
 }
 </script>
