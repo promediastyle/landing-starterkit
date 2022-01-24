@@ -48,7 +48,6 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
 export default {
     data() {
         return {
@@ -82,6 +81,5 @@ export default {
                 this.isOpen = false;
         });
     },
-    components: { Navbar }
 }
 </script>
