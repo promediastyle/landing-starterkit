@@ -2,7 +2,7 @@
 
 ## Build Setup
 
-[Firebase Borm](https://youtu.be/btQWHig29pA)
+[👍 Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
 ```bash
 # install dependencies
