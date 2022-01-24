@@ -34,7 +34,7 @@
         @click="isOpen = false"
         class="flex w-full items-center p-4 border-b"
       >
-        <img src="~/img/fubon.svg" alt="" width="48" />
+        <img class="w-[100px]" src="~/img/fubon.svg" alt=""/>
       </span>
 
       <div class="p-4" @click="isOpen = false">
