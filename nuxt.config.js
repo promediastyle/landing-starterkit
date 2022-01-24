@@ -101,7 +101,7 @@ export default {
   },
 
   cli: {
-    badgeMessages: ['Made in Fubon | https://thefubon.com'],
+    badgeMessages: ['Made in Fubon | http://thefubon.com'],
     bannerColor: 'yellow'
   }
 }
