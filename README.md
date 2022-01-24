@@ -1,6 +1,6 @@
 # Landing Starter Kit
 
-## Muxt Firebase
+## Nuxt Firebase
 
 [👍 Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
