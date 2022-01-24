@@ -1,5 +1,5 @@
 <template>
-  <scrollactive class="flex flex-col md:flex-row md:items-center md:space-x-4" active-class="activeScrollbar" :modifyUrl="false" :offset="45" :duration="800" bezier-easing-value=".5,0,.35,1">
+  <scrollactive class="flex flex-col md:flex-row md:items-center md:space-x-4" active-class="activeScrollbar" :modifyUrl="false" :offset="160" :duration="800" bezier-easing-value=".5,0,.35,1">
     <a class="scrollactive-item" :exact="item.exact" :class="{'hidden': item.hidden}" :href="item.link" v-for="item in items" :key="item.id">{{ item.title }}</a>
   </scrollactive>
 </template>

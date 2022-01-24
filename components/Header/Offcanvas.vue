@@ -39,10 +39,7 @@
 
       <div class="p-4" @click="isOpen = false">
         
-        <nav class="flex flex-col space-y-2">
-          <NuxtLink active-class="activeNavbar" :to="localePath('/')" exact>Home</NuxtLink>
-          <NuxtLink active-class="activeNavbar" :to="localePath('/about')">About</NuxtLink>
-        </nav>
+        <HeaderNavbar/>
 
       </div>
 
@@ -51,38 +48,40 @@
 </template>
 
 <script>
+import Navbar from "./Navbar.vue";
 export default {
-  data() {
-      return {
-          isOpen: false,
-          isDrop: false
-      };
-  },
-  methods: {
-      drawer() {
-          this.isOpen = !this.isOpen;
-      }
-  },
-  // No Scroll Page
-  watch: {
-      isOpen: {
-          immediate: true,
-          handler(isOpen) {
-              if (process.client) {
-                  if (isOpen)
-                      document.body.style.setProperty("overflow", "hidden");
-                  else
-                      document.body.style.removeProperty("overflow");
-              }
-          }
-      }
-  },
-  // ESC Button
-  mounted() {
-      document.addEventListener("keydown", e => {
-          if (e.keyCode == 27 && this.isOpen)
-              this.isOpen = false;
-      });
-  },
+    data() {
+        return {
+            isOpen: false,
+            isDrop: false
+        };
+    },
+    methods: {
+        drawer() {
+            this.isOpen = !this.isOpen;
+        }
+    },
+    // No Scroll Page
+    watch: {
+        isOpen: {
+            immediate: true,
+            handler(isOpen) {
+                if (process.client) {
+                    if (isOpen)
+                        document.body.style.setProperty("overflow", "hidden");
+                    else
+                        document.body.style.removeProperty("overflow");
+                }
+            }
+        }
+    },
+    // ESC Button
+    mounted() {
+        document.addEventListener("keydown", e => {
+            if (e.keyCode == 27 && this.isOpen)
+                this.isOpen = false;
+        });
+    },
+    components: { Navbar }
 }
 </script>

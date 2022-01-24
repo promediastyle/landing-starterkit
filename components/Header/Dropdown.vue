@@ -2,7 +2,7 @@
   <button class="relative w-[40px] border" v-on-clickaway="away" @click="isOpen = !isOpen" @keydown.escape="isOpen = false">
     {{ $t('header.LangSwitcher.language') }}
 
-    <div class="absolute right-0 bg-white w-[100px] flex flex-col space-y-2 mt-2 p-4 border text-left" v-if="isOpen" @click="isOpen = false" v-cloak transform-gpu>
+    <div class="absolute right-0 bg-white w-[100px] flex flex-col space-y-2 mt-2 p-4 border text-left z-30" v-if="isOpen" @click="isOpen = false" v-cloak transform-gpu>
       <NuxtLink active-class="activeLangSwitcher" :to="switchLocalePath('ru')" exact>Русский</NuxtLink>
       <NuxtLink active-class="activeLangSwitcher" :to="switchLocalePath('en')">English</NuxtLink>
       <NuxtLink active-class="activeLangSwitcher" :to="switchLocalePath('de')">Deutch</NuxtLink>

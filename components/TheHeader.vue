@@ -1,11 +1,9 @@
 <template>
-  <header class="container bg-white h-[80px] flex justify-between items-center space-x-4 border-b mb-10 sticky top-0">
+  <header class="container bg-white h-[80px] flex justify-between items-center space-x-4 border-b px-4 sticky top-0 z-30">
     
     <NuxtLink :to="localePath('/')"><img class="w-[100px]" src="~/img/fubon.svg" alt=""></NuxtLink>
     
-    <HeaderNavbar/>
-
-    <HeaderScrollbar/>
+    <HeaderNavbar class="hidden md:block"/>
 
     <HeaderDropdown/>
 
@@ -19,8 +17,8 @@
       </template>
       <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{ locale.name }}</NuxtLink>
     </HeaderLangSwitcher>
-    
-    <HeaderOffcanvas/>
+
+    <HeaderOffcanvas class="md:hidden"/>
 
   </header>
 </template>
