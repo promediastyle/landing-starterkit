@@ -1,14 +1,15 @@
 <template>
   <header class="container bg-white h-[80px] flex justify-between items-center space-x-4 border-b mb-10 sticky top-0">
+    
     <NuxtLink :to="localePath('/')"><img class="w-[100px]" src="~/img/fubon.svg" alt=""></NuxtLink>
     
-    <Navbar/>
+    <HeaderNavbar/>
 
-    <Scrollbar/>
+    <HeaderScrollbar/>
 
-    <Dropdown/>
+    <HeaderDropdown/>
 
-    <LangSwitcher v-if="availableLocales.length" class="inline-flex">
+    <HeaderLangSwitcher v-if="availableLocales.length" class="inline-flex">
       <template #trigger="{ open, toggle }">
         <button class="focus:outline-none cursor-pointer" :class="{ 'text-indigo-500': open }" @touchstart.stop.prevent="toggle">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -17,9 +18,10 @@
         </button>
       </template>
       <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{ locale.name }}</NuxtLink>
-    </LangSwitcher>
+    </HeaderLangSwitcher>
+    
+    <HeaderOffcanvas/>
 
-    <Offcanvas/>
   </header>
 </template>
 
