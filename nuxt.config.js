@@ -38,6 +38,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~plugins/vue-scrollactive.js', // https://github.com/eddiemf/vue-scrollactive
+    "~/plugins/firebase",
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -103,5 +104,15 @@ export default {
   cli: {
     badgeMessages: ['Made in Fubon | http://thefubon.com'],
     bannerColor: 'yellow'
-  }
+  },
+
+  loading: {
+    color: '#ffcc00',
+    height: '2px'
+  },
+
+  // transition: {
+  //   name: 'my-layouts',
+  //   mode: 'out-in',
+  // },
 }
