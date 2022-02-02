@@ -6,17 +6,14 @@
 [Firebase](https://firebase.google.com/)
 
 ## Additions to the project
-
 [Oruga - UI Components](https://oruga.io/)<br>
 [Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
 [VueMotion - components in animation](https://motion.vueuse.org/)
 
 ## Examples of code and components
-
 [Nuxt, HTML, CSS - Components](https://heartcode.fuxing.dev/)
 
 ## Nuxt Firebase Tutorial
-
 [👍 Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
 ## Build Setup
