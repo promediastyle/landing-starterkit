@@ -1,9 +1,9 @@
 # Landing Starter Kit
 
 ## What is included in the project
-[NuxtJS](https://nuxtjs.org/)
-[Tailwind CSS](https://tailwindcss.com/)
-[Oruga UI Components](https://oruga.io/)
+[NuxtJS](https://nuxtjs.org/)<br>
+[Tailwind CSS](https://tailwindcss.com/)<br>
+[Oruga UI Components](https://oruga.io/)<br>
 
 ## Nuxt Firebase
 
