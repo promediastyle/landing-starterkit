@@ -34,22 +34,6 @@ $ npm run generate
 $ npm run start
 ```
 
-## Sequence
-
-```bash
-# 001 (Form)
-form.ru
-
-# 002 (Send)
-type="submit" Registration
-
-# 003 (Save Data)
-.json or .js
-
-# 004 (Show Data)
-FormData.vue
-```
-
 ## UTM
 
 ```bash
@@ -57,7 +41,7 @@ FormData.vue
 ?utm_source=website_com&utm_medium=news&utm_term=name_conference&utm_content=article&utm_campaign=moscow
 ```
 
-## Script UTM
+## JavaScript UTM
 
 ```bash
   // парсим гет-параметры
