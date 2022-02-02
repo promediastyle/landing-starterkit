@@ -4,8 +4,11 @@
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
 [Oruga - UI Components](https://oruga.io/)<br>
+[Nuxt, HTML - Components](https://heartcode.fuxing.dev/)
+
 [Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
-[VueMotion - components in animation](https://motion.vueuse.org/)<br>
+[VueMotion - components in animation](https://motion.vueuse.org/)
+
 [Firebase](https://firebase.google.com/)
 
 ## Nuxt Firebase
