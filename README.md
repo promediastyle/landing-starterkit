@@ -1,11 +1,12 @@
 # Landing Starter Kit
+> Nuxt app template project with my customisation.
 
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
 [Firebase](https://firebase.google.com/)
 
-## Additions to the project
+## Additional Plugins to consider
 [Oruga - UI Components](https://oruga.io/)<br>
 [Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
 [VueMotion - components in animation](https://motion.vueuse.org/)
