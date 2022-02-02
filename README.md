@@ -4,6 +4,7 @@
 [NuxtJS](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
 [Oruga UI Components](https://oruga.io/)<br>
+[Firebase](https://firebase.google.com/)
 
 ## Nuxt Firebase
 
