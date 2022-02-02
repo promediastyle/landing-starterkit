@@ -1,6 +1,7 @@
 # Landing Starter Kit
 > Nuxt app template project with my customisation.
 
+
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
