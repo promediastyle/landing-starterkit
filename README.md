@@ -1,4 +1,4 @@
-# Landing Starter Kit
+# 👍 Landing Starter Kit
 > Nuxt app template project with my customisation.
 
 
@@ -16,7 +16,7 @@
 [Nuxt, HTML, CSS - Components](https://heartcode.fuxing.dev/)
 
 ## Nuxt Firebase Tutorial
-[👍 Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
+[Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
 ## Build Setup
 
