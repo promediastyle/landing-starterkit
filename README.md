@@ -1,7 +1,7 @@
 # Landing Starter Kit
 
 ## What is included in the project
-[NuxtJS 2](https://nuxtjs.org/)<br>
+[Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
 [Oruga UI Components](https://oruga.io/)<br>
 [Firebase](https://firebase.google.com/)
