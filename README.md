@@ -3,7 +3,10 @@
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
-[Oruga - UI Components](https://oruga.io/)<br>
+[Oruga - UI Components](https://oruga.io/)
+
+## Additions to the project
+
 [Nuxt, HTML - Components](https://heartcode.fuxing.dev/)
 
 [Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
@@ -11,7 +14,7 @@
 
 [Firebase](https://firebase.google.com/)
 
-## Nuxt Firebase
+## Nuxt Firebase Tutorial
 
 [👍 Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
