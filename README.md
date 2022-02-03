@@ -8,7 +8,7 @@
 [Firebase](https://firebase.google.com/)
 
 ## Additional Plugins to consider
-[Oruga - UI Components](https://oruga.io/)<br>
+[View UI](https://www.iviewui.com/)<br>
 [Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
 [VueMotion - components in animation](https://motion.vueuse.org/)
 
