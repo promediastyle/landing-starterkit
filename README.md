@@ -37,7 +37,7 @@ $ npm run start
 ## Meta
 
 ```bash
-<meta property="og:title" content="Titlw">
+<meta property="og:title" content="Title">
 <meta property="og:type" content="website">
 <meta property="og:url" content="thefubon.com">
 <meta property="og:image" content="https://image.jpg">
