@@ -37,16 +37,16 @@ $ npm run start
 ## Meta
 
 ```bash
-<meta property="og:title" content="Hello">
+<meta property="og:title" content="Titlw">
 <meta property="og:type" content="website">
 <meta property="og:url" content="thefubon.com">
-<meta property="og:image" content="https://10015.io/brand/logo-on-light.svg">
-<meta property="og:site_name" content="Test">
-<meta property="og:description" content="desct">
-<meta property="og:video" content="test.come">
-<meta property="og:audio" content="test.com">
-<meta property="og:determiner" content="qwefqwe">
-<meta property="og:locale" content="ferfwef">
+<meta property="og:image" content="https://image.jpg">
+<meta property="og:site_name" content="Site Name">
+<meta property="og:description" content="Description">
+<meta property="og:video" content="https://video.mp4">
+<meta property="og:audio" content="https://audio.mp3">
+<meta property="og:determiner" content="determiner">
+<meta property="og:locale" content="locale">
 ```
 
 ## UTM
