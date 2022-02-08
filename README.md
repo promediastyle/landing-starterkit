@@ -34,6 +34,21 @@ $ npm run generate
 $ npm run start
 ```
 
+## Meta
+
+```bash
+<meta property="og:title" content="Hello">
+<meta property="og:type" content="website">
+<meta property="og:url" content="thefubon.com">
+<meta property="og:image" content="https://10015.io/brand/logo-on-light.svg">
+<meta property="og:site_name" content="Test">
+<meta property="og:description" content="desct">
+<meta property="og:video" content="test.come">
+<meta property="og:audio" content="test.com">
+<meta property="og:determiner" content="qwefqwe">
+<meta property="og:locale" content="ferfwef">
+```
+
 ## UTM
 
 ```bash
